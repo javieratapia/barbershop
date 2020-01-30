@@ -9875,13 +9875,27 @@ h3 {
     border-color: #dee2e6;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
+nav img {
+  width: 50%;
 }
 
-.header {
-  background-image: url(../../images/post-image.jpg);
+header {
+  background-image: url("../images/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+@media only screen and (min-width: 1200px) {
+  header {
+    margin-top: 4rem;
+    padding: 25rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header {
+    margin-top: 5rem;
+    padding: 10rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

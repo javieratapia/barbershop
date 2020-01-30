@@ -1,3 +1,14 @@
-.header{
-    background-image: url(../../images/post-image.jpg);
+header{
+    background-image: url('../images/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    @media only screen and (min-width: 1200px) {
+        margin-top: 4rem;
+        padding: 25rem;
+    }
+    @media only screen and (max-width: 600px) {
+        margin-top: 5rem;
+        padding: 10rem;
+    }
 }
