@@ -9,6 +9,10 @@ header{
     }
     @media only screen and (max-width: 600px) {
         margin-top: 5rem;
-        padding: 10rem;
+        padding-bottom: 10rem;
+        h1{
+            margin-left: 1rem;
+            padding-top: 8rem;;
+        }     
     }
 }

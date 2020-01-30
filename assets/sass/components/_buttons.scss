@@ -1,0 +1,14 @@
+.boton{
+    border-radius: 20px;
+    @media only screen and (min-width: 1200px) {
+        
+   }
+   @media only screen and (max-width: 600px) {
+       
+
+   }
+}
+
+.boton2{
+    border-radius: 20px 20px;
+}

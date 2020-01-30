@@ -1,0 +1,26 @@
+h1 {
+    font-family: $playfair;
+    font-weight: $bold;
+    font-size: $xx-large;
+    color: $white;
+    font-style: italic;
+    text-align: center;
+}
+
+article{
+    color: $nickel;
+}
+
+h2{
+    font-family: $playfair;
+    font-weight: $bold;
+    font-size: $x-large;
+}
+.section__link-emphasis{
+    color: $ruddy-pink;
+    font-size: $medium;
+    padding: 1em;
+    font-style: italic;
+}
+
+

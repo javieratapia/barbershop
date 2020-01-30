@@ -1,0 +1,38 @@
+.section__imagen{
+    
+    @media only screen and (min-width: 1200px) {
+        width: 20%;
+    }
+   
+   @media only screen and (max-width: 600px) { 
+       
+   }
+
+}
+
+.section__author{
+    
+    @media only screen and (min-width: 1200px) {
+        margin-top: 5rem;
+        margin-left: 1rem;;
+        width: 15%;
+    }
+   
+   @media only screen and (max-width: 600px) { 
+       
+   }
+
+}
+
+.section__description{
+    
+    @media only screen and (min-width: 1200px) {
+        margin-top: 5rem;
+        width: 60%;
+    }
+   
+   @media only screen and (max-width: 600px) { 
+       
+   }
+
+}
