@@ -9,18 +9,45 @@ h1 {
 
 article{
     color: $nickel;
+    .emphasis{
+        @media only screen and (min-width: 1200px) {
+            color: $ruddy-pink;;
+        }
+       
+       @media only screen and (max-width: 600px) { 
+           
+       }
+    }
 }
 
 h2{
     font-family: $playfair;
     font-weight: $bold;
     font-size: $x-large;
+    font-style: italic;
 }
 .section__link-emphasis{
     color: $ruddy-pink;
     font-size: $medium;
     padding: 1em;
-    font-style: italic;
+   
 }
-
+.navbar{
+    a{
+        color: $white!important;
+        &:hover{
+            color: $fuzzy-wuzzy!important;
+        }
+    }
+    .actives{
+        color: $fuzzy-wuzzy!important;
+      
+    }
+}
+.page-link{
+    color: $eerie-blank;
+}
+.antes{
+    color: $nickel!important;
+}
 

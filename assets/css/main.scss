@@ -9895,11 +9895,7 @@ h1 {
 article {
   color: #6c6e70;
 }
-@media only screen and (min-width: 1200px) {
-  article .emphasis {
-    color: #d76c69;
-  }
-}
+
 h2 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -9911,24 +9907,6 @@ h2 {
   color: #d76c69;
   font-size: 16px;
   padding: 1em;
-}
-
-.navbar a {
-  color: #FFF !important;
-}
-.navbar a:hover {
-  color: #E56353 !important;
-}
-.navbar .actives {
-  color: #E56353 !important;
-}
-
-.page-link {
-  color: #121619;
-}
-
-.antes {
-  color: #6c6e70 !important;
 }
 
 .article {
@@ -9985,11 +9963,6 @@ nav img {
   width: 50%;
 }
 
-.activeboton {
-  background-color: #222323 !important;
-  color: #FFF !important;
-}
-
 header {
   background-image: url("../images/post-image.jpg");
   background-repeat: no-repeat;
@@ -10004,7 +9977,7 @@ header {
 }
 @media only screen and (max-width: 600px) {
   header {
-    margin-top: 4rem;
+    margin-top: 5rem;
     padding-bottom: 10rem;
   }
   header h1 {
@@ -10018,12 +9991,6 @@ header {
     width: 20%;
   }
 }
-@media only screen and (max-width: 600px) {
-  .section__imagen {
-    margin-left: 3rem;
-  }
-}
-
 @media only screen and (min-width: 1200px) {
   .section__author {
     margin-top: 5rem;
@@ -10031,25 +9998,12 @@ header {
     width: 15%;
   }
 }
-@media only screen and (max-width: 600px) {
-  .section__author {
-    text-align: center;
-    margin-left: 3rem;
-  }
-}
-
 @media only screen and (min-width: 1200px) {
   .section__description {
     margin-top: 5rem;
     width: 60%;
   }
 }
-@media only screen and (max-width: 600px) {
-  .section__data {
-    margin-left: 3rem;
-  }
-}
-
 .boton {
   border-radius: 20px;
 }
@@ -10057,4 +10011,4 @@ header {
   border-radius: 20px 20px;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.scss.map */
